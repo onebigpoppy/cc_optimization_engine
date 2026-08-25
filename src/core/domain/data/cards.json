@@ -7,9 +7,24 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "overseas", "type": "cashback", "rate": 3.6, "note": "自選類別「賞世界」；每年上限 HK$100,000" },
-      { "category": "dining", "type": "cashback", "rate": 3.6, "note": "自選類別「賞滋味」；每年上限 HK$100,000" },
-      { "category": "supermarket", "type": "cashback", "rate": 3.6, "note": "自選類別「賞家居」（百佳／759）；每年上限 HK$100,000" }
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 3.6,
+        "note": "自選類別「賞世界」；每年上限 HK$100,000"
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 3.6,
+        "note": "自選類別「賞滋味」；每年上限 HK$100,000"
+      },
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 3.6,
+        "note": "自選類別「賞家居」（百佳／759）；每年上限 HK$100,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#DB0011",
@@ -24,7 +39,17 @@
     "baseType": "cashback",
     "baseRate": 1,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 4, "note": "每月首 HK$10,000 網上簽賬" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 4,
+        "note": "每月首 HK$10,000 網上簽賬"
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 4
+      }
     ],
     "merchantOverrides": [],
     "color": "#C8102E",
@@ -39,8 +64,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 2.4, "note": "賞家居：百佳／759 阿信屋" },
-      { "category": "dining", "type": "cashback", "rate": 2.4, "note": "賞滋味：食肆餐廳" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 2.4,
+        "note": "賞家居：百佳／759 阿信屋"
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 2.4,
+        "note": "賞滋味：食肆餐廳"
+      }
     ],
     "merchantOverrides": [],
     "color": "#B3202C",
@@ -54,10 +89,26 @@
     "network": "mastercard",
     "baseType": "cashback",
     "baseRate": 0.5,
-    "categoryRates": [],
+    "categoryRates": [
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 5
+      }
+    ],
     "merchantOverrides": [
-      { "merchantId": "merchant_parknshop", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$4,000" },
-      { "merchantId": "merchant_759", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$4,000" }
+      {
+        "merchantId": "merchant_parknshop",
+        "type": "cashback",
+        "rate": 5,
+        "note": "每月累積簽賬滿 HK$4,000"
+      },
+      {
+        "merchantId": "merchant_759",
+        "type": "cashback",
+        "rate": 5,
+        "note": "每月累積簽賬滿 HK$4,000"
+      }
     ],
     "color": "#375E97",
     "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2022/03/SCB_SmartCard_Retouched_cardface-copy-300x194.png",
@@ -71,7 +122,12 @@
     "baseType": "cashback",
     "baseRate": 1,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 2, "note": "本地食肆及酒店，無上限" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 2,
+        "note": "本地食肆及酒店，無上限"
+      }
     ],
     "merchantOverrides": [],
     "color": "#E87722",
@@ -86,7 +142,17 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 8, "note": "逢星期三，單一簽賬滿 HK$300；每月上限 HK$2,000" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 8,
+        "note": "逢星期三，單一簽賬滿 HK$300；每月上限 HK$2,000"
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 5
+      }
     ],
     "merchantOverrides": [],
     "color": "#111827",
@@ -101,7 +167,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 5, "note": "單一簽賬滿 HK$300；每月上限 HK$8,000" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 5,
+        "note": "單一簽賬滿 HK$300；每月上限 HK$8,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#1F2A44",
@@ -116,7 +187,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 9.4, "note": "加碼賞：每月登記，累積滿 HK$5,000 及每單滿 HK$500；上限每月 HK$4,445" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 9.4,
+        "note": "加碼賞：每月登記，累積滿 HK$5,000 及每單滿 HK$500；上限每月 HK$4,445"
+      }
     ],
     "merchantOverrides": [],
     "color": "#0A7BB5",
@@ -131,8 +207,28 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 6, "note": "網上簽賬（含網上超市）；每月上限 HK$3,571" },
-      { "category": "drive", "type": "cashback", "rate": 6, "note": "易通行／咪錶經網上支付；每月上限 HK$3,571" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 6,
+        "note": "網上簽賬（含網上超市）；每月上限 HK$3,571"
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 6,
+        "note": "易通行／咪錶經網上支付；每月上限 HK$3,571"
+      },
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 6
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 6
+      }
     ],
     "merchantOverrides": [],
     "color": "#8E44AD",
@@ -147,8 +243,28 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 6, "note": "Apple/Google Pay 本地食肆；每月上限 HK$1,786" },
-      { "category": "supermarket", "type": "cashback", "rate": 6, "note": "Apple/Google Pay AEON Stores；每月上限 HK$1,923" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 6,
+        "note": "Apple/Google Pay 本地食肆；每月上限 HK$1,786"
+      },
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 6,
+        "note": "Apple/Google Pay AEON Stores；每月上限 HK$1,923"
+      },
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 6
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 6
+      }
     ],
     "merchantOverrides": [],
     "color": "#6C3483",
@@ -163,9 +279,24 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$3,000；上限每月 HK$10,870" },
-      { "category": "overseas", "type": "cashback", "rate": 4, "note": "每月累積簽賬滿 HK$3,000；上限每月 HK$13,889" },
-      { "category": "drive", "type": "cashback", "rate": 5, "note": "牌費經網上支付；上限每月 HK$10,870" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 5,
+        "note": "每月累積簽賬滿 HK$3,000；上限每月 HK$10,870"
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 4,
+        "note": "每月累積簽賬滿 HK$3,000；上限每月 HK$13,889"
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 5.4,
+        "note": "牌費經網上支付；上限每月 HK$10,870"
+      }
     ],
     "merchantOverrides": [],
     "color": "#00A3A1",
@@ -180,8 +311,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "overseas", "type": "cashback", "rate": 5, "note": "其他外幣（日韓泰中澳台高達 7%）；上限每月 HK$10,870" },
-      { "category": "dining", "type": "cashback", "rate": 5, "note": "本地餐飲（需登記）；上限每月 HK$10,870" }
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 5,
+        "note": "其他外幣（日韓泰中澳台高達 7%）；上限每月 HK$10,870"
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 5,
+        "note": "本地餐飲（需登記）；上限每月 HK$10,870"
+      }
     ],
     "merchantOverrides": [],
     "color": "#8B0000",
@@ -196,8 +337,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 5, "note": "每月上限 HK$3,260" },
-      { "category": "overseas", "type": "cashback", "rate": 5, "note": "每月上限 HK$3,260" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 5,
+        "note": "每月上限 HK$3,260"
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 5,
+        "note": "每月上限 HK$3,260"
+      }
     ],
     "merchantOverrides": [],
     "color": "#B71C1C",
@@ -212,8 +363,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 4, "note": "10X 積分 = 4% 回贈或 HK$1.5/里；每月上限 HK$10,000" },
-      { "category": "overseas", "type": "cashback", "rate": 4, "note": "10X 積分 = 4% 回贈或 HK$1.5/里；每月上限 HK$25,000" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 4,
+        "note": "10X 積分 = 4% 回贈或 HK$1.5/里；每月上限 HK$10,000"
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 4,
+        "note": "10X 積分 = 4% 回贈或 HK$1.5/里；每月上限 HK$25,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#4A148C",
@@ -228,8 +389,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 5.4, "note": "Apple/Google/Samsung Pay；每月上限 HK$2,000" },
-      { "category": "drive", "type": "cashback", "rate": 5.4, "note": "油站 Apple/Google Pay；每月上限 HK$2,000" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 5.4,
+        "note": "Apple/Google/Samsung Pay；每月上限 HK$2,000"
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 5.4,
+        "note": "油站 Apple/Google Pay；每月上限 HK$2,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#C2185B",
@@ -243,9 +414,20 @@
     "network": "unionpay",
     "baseType": "cashback",
     "baseRate": 0.4,
-    "categoryRates": [],
+    "categoryRates": [
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 5
+      }
+    ],
     "merchantOverrides": [
-      { "merchantId": "merchant_wellcome", "type": "cashback", "rate": 5, "note": "指定 Go 商戶：惠康／Market Place；每月上限 HK$2,000" }
+      {
+        "merchantId": "merchant_wellcome",
+        "type": "cashback",
+        "rate": 5,
+        "note": "指定 Go 商戶：惠康／Market Place；每月上限 HK$2,000"
+      }
     ],
     "color": "#9C27B0",
     "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/04/boc_go_diamond_9cb7a40936-189x300.png",
@@ -259,7 +441,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 4, "note": "每月首 HK$10,000 網購" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 4,
+        "note": "每月首 HK$10,000 網購"
+      }
     ],
     "merchantOverrides": [],
     "color": "#D81B60",
@@ -274,9 +461,24 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 4.4, "note": "Apple/Google Pay 及網上簽賬；每月上限 HK$5,000" },
-      { "category": "drive", "type": "cashback", "rate": 6.4, "note": "本地油站，每月累積簽賬滿 HK$2,000；上限每月 HK$3,333" },
-      { "category": "utility-bill", "type": "cashback", "rate": 4.4, "note": "經 AlipayHK 繳費；每月上限 HK$5,000" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 4.4,
+        "note": "Apple/Google Pay 及網上簽賬；每月上限 HK$5,000"
+      },
+      {
+        "category": "drive",
+        "type": "cashback",
+        "rate": 6.4,
+        "note": "本地油站，每月累積簽賬滿 HK$2,000；上限每月 HK$3,333"
+      },
+      {
+        "category": "utility-bill",
+        "type": "cashback",
+        "rate": 4.4,
+        "note": "經 AlipayHK 繳費；每月上限 HK$5,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#0B6E4F",
@@ -291,8 +493,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "dining", "type": "cashback", "rate": 5, "note": "12.5X 積分，需登記；每月上限 HK$10,000" },
-      { "category": "overseas", "type": "cashback", "rate": 5, "note": "12.5X 積分，歐洲除外；每月上限 HK$10,000" }
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 5,
+        "note": "12.5X 積分，需登記；每月上限 HK$10,000"
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 5,
+        "note": "12.5X 積分，歐洲除外；每月上限 HK$10,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#003DA5",
@@ -307,8 +519,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 4, "note": "Apple/Google Pay 及網上簽賬；每月上限 HK$8,333" },
-      { "category": "utility-bill", "type": "cashback", "rate": 4, "note": "經 AlipayHK 繳費；每月上限 HK$8,333" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 4,
+        "note": "Apple/Google Pay 及網上簽賬；每月上限 HK$8,333"
+      },
+      {
+        "category": "utility-bill",
+        "type": "cashback",
+        "rate": 4,
+        "note": "經 AlipayHK 繳費；每月上限 HK$8,333"
+      }
     ],
     "merchantOverrides": [],
     "color": "#5C6BC0",
@@ -323,7 +545,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 15, "note": "拍卡（contactless），每月累積零售簽賬滿 HK$500；上限每月 HK$667" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 15,
+        "note": "拍卡（contactless），每月累積零售簽賬滿 HK$500；上限每月 HK$667"
+      }
     ],
     "merchantOverrides": [],
     "color": "#2E7D32",
@@ -338,8 +565,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 6, "note": "當月累積簽賬滿 HK$3,800；上限每月 HK$3,571" },
-      { "category": "dining", "type": "cashback", "rate": 6, "note": "當月累積簽賬滿 HK$3,800；上限每月 HK$3,571" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 6,
+        "note": "當月累積簽賬滿 HK$3,800；上限每月 HK$3,571"
+      },
+      {
+        "category": "dining",
+        "type": "cashback",
+        "rate": 6,
+        "note": "當月累積簽賬滿 HK$3,800；上限每月 HK$3,571"
+      }
     ],
     "merchantOverrides": [],
     "color": "#F4511E",
@@ -354,7 +591,17 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 8, "note": "20X 積分，每月下限簽 HK$1,000；上限每月 HK$3,290" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 8,
+        "note": "20X 積分，每月下限簽 HK$1,000；上限每月 HK$3,290"
+      },
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 8
+      }
     ],
     "merchantOverrides": [],
     "color": "#1565C0",
@@ -369,7 +616,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "overseas", "type": "cashback", "rate": 8, "note": "新台幣 20X（每月上限 HK$5,333）；日韓 10X = 4%" }
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 8,
+        "note": "新台幣 20X（每月上限 HK$5,333）；日韓 10X = 4%"
+      }
     ],
     "merchantOverrides": [],
     "color": "#1976D2",
@@ -384,8 +636,18 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "online", "type": "cashback", "rate": 8, "note": "每單滿 HK$500，實體店再累積滿 HK$1,000；上限每月 HK$2,500" },
-      { "category": "overseas", "type": "cashback", "rate": 8, "note": "海外實體簽賬，每月累積滿 HK$1,000；上限每月 HK$2,500" }
+      {
+        "category": "online",
+        "type": "cashback",
+        "rate": 8,
+        "note": "每單滿 HK$500，實體店再累積滿 HK$1,000；上限每月 HK$2,500"
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 8,
+        "note": "海外實體簽賬，每月累積滿 HK$1,000；上限每月 HK$2,500"
+      }
     ],
     "merchantOverrides": [],
     "color": "#512DA8",
@@ -400,7 +662,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 3, "note": "全港超市及雜貨店，無上限" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 3,
+        "note": "全港超市及雜貨店，無上限"
+      }
     ],
     "merchantOverrides": [],
     "color": "#00A0E9",
@@ -415,7 +682,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "overseas", "type": "cashback", "rate": 4, "note": "10X 積分；每半年上限 HK$25,000" }
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 4,
+        "note": "10X 積分；每半年上限 HK$25,000"
+      }
     ],
     "merchantOverrides": [],
     "color": "#004D40",
@@ -430,7 +702,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "overseas", "type": "cashback", "rate": 10, "note": "限時海外簽賬，兼免外幣手續費；全季上限 HK$5,209" }
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 10,
+        "note": "限時海外簽賬，兼免外幣手續費；全季上限 HK$5,209"
+      }
     ],
     "merchantOverrides": [],
     "color": "#E53935",
@@ -445,7 +722,12 @@
     "baseType": "cashback",
     "baseRate": 0.4,
     "categoryRates": [
-      { "category": "supermarket", "type": "cashback", "rate": 9, "note": "指定超市，單一簽賬滿 HK$200（限名額）；每月上限 HK$2,112" }
+      {
+        "category": "supermarket",
+        "type": "cashback",
+        "rate": 9,
+        "note": "指定超市，單一簽賬滿 HK$200（限名額）；每月上限 HK$2,112"
+      }
     ],
     "merchantOverrides": [],
     "color": "#C62828",
