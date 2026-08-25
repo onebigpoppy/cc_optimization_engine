@@ -1,0 +1,152 @@
+[
+  {
+    "id": "cat_online",
+    "name": "網上簽賬",
+    "aliases": ["Online", "網購", "網上購物", "Online Shopping"],
+    "categories": ["online"]
+  },
+  {
+    "id": "cat_supermarket",
+    "name": "超市",
+    "aliases": ["Supermarket", "超級市場", "Groceries"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "cat_drive",
+    "name": "揸車",
+    "aliases": ["Drive", "Driving", "入油", "油站", "易通行", "牌費"],
+    "categories": ["drive"]
+  },
+  {
+    "id": "cat_dining",
+    "name": "餐飲食肆",
+    "aliases": ["Dining", "餐廳", "食飯", "餐飲"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "cat_utility_bill",
+    "name": "繳費",
+    "aliases": ["Utility", "Utilities", "水電煤", "電話費", "差餉"],
+    "categories": ["utility-bill"]
+  },
+  {
+    "id": "cat_overseas",
+    "name": "海外簽賬",
+    "aliases": ["Overseas", "外幣簽賬", "旅遊", "Travel"],
+    "categories": ["overseas"]
+  },
+  {
+    "id": "merchant_parknshop",
+    "name": "百佳",
+    "aliases": ["ParknShop", "Park n Shop", "百佳超市", "parknshop"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_wellcome",
+    "name": "惠康",
+    "aliases": ["Wellcome", "Market Place", "惠康超市", "wellcome"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_hktvmall",
+    "name": "HKTVmall",
+    "aliases": ["HKTVMall", "hktv mall", "hktvmall"],
+    "categories": ["supermarket", "online"]
+  },
+  {
+    "id": "merchant_aeon_stores",
+    "name": "AEON 超市",
+    "aliases": ["AEON", "Aeon Stores", "永旺"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_759",
+    "name": "759 阿信屋",
+    "aliases": ["759 Store", "阿信屋"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_yata",
+    "name": "一田",
+    "aliases": ["YATA", "一田百貨"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_citysuper",
+    "name": "city'super",
+    "aliases": ["citysuper", "city super"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_donki",
+    "name": "DON DON DONKI",
+    "aliases": ["Don Don Donki", "Donki", "驚安之殿堂"],
+    "categories": ["supermarket"]
+  },
+  {
+    "id": "merchant_maxim",
+    "name": "美心皇宮",
+    "aliases": ["Maxim's Palace", "Maxims", "美心", "maximspalace"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "merchant_cafe_de_coral",
+    "name": "大家樂",
+    "aliases": ["Cafe de Coral", "cafedecoral"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "merchant_mcdonalds",
+    "name": "麥當勞",
+    "aliases": ["McDonald's", "McDonalds", "mcdonalds"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "merchant_tamjai",
+    "name": "譚仔三哥",
+    "aliases": ["TamJai SamGor", "譚仔"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "merchant_taihing",
+    "name": "太興",
+    "aliases": ["Tai Hing", "太興茶餐廳"],
+    "categories": ["dining"]
+  },
+  {
+    "id": "merchant_amazon",
+    "name": "Amazon",
+    "aliases": ["Amazon.com", "亞馬遜", "amazon hk"],
+    "categories": ["online"]
+  },
+  {
+    "id": "merchant_apple",
+    "name": "Apple Store",
+    "aliases": ["Apple", "蘋果", "applestore"],
+    "categories": ["online"]
+  },
+  {
+    "id": "merchant_netflix",
+    "name": "Netflix",
+    "aliases": ["netflix.com"],
+    "categories": ["online"]
+  },
+  {
+    "id": "merchant_taobao",
+    "name": "淘寶",
+    "aliases": ["Taobao", "淘寶網", "taobao.com"],
+    "categories": ["online"]
+  },
+  {
+    "id": "merchant_foodpanda",
+    "name": "foodpanda",
+    "aliases": ["food panda"],
+    "categories": ["online"]
+  },
+  {
+    "id": "merchant_deliveroo",
+    "name": "Deliveroo",
+    "aliases": ["deliveroo"],
+    "categories": ["online"]
+  }
+]

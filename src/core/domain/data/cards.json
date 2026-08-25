@@ -1,0 +1,455 @@
+[
+  {
+    "id": "card_hsbc_vs",
+    "name": "滙豐 Visa Signature",
+    "issuer": "HSBC",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "overseas", "type": "cashback", "rate": 3.6, "note": "自選類別「賞世界」" },
+      { "category": "dining", "type": "cashback", "rate": 3.6, "note": "自選類別「賞滋味」" },
+      { "category": "supermarket", "type": "cashback", "rate": 3.6, "note": "自選類別「賞家居」（百佳／759）" }
+    ],
+    "merchantOverrides": [],
+    "color": "#DB0011",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2021/08/HSBC_Visa-Signature-Cardface_RGB_18-Nov-copy-e1719642524129-300x188.jpg",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_hsbc_red",
+    "name": "滙豐 Red",
+    "issuer": "HSBC",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 1,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 4, "note": "每月首 HK$10,000 網上簽賬" }
+    ],
+    "merchantOverrides": [],
+    "color": "#C8102E",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/07/red-2-e1719649698551-300x190.jpg",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_hsbc_easy",
+    "name": "滙豐 easy",
+    "issuer": "HSBC",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 2.4, "note": "賞家居：百佳／759 阿信屋" },
+      { "category": "dining", "type": "cashback", "rate": 2.4, "note": "賞滋味：食肆餐廳" }
+    ],
+    "merchantOverrides": [],
+    "color": "#B3202C",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/05/HSBCeasy-192x300.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_sc_smart",
+    "name": "渣打 Smart",
+    "issuer": "Standard Chartered",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.5,
+    "categoryRates": [],
+    "merchantOverrides": [
+      { "merchantId": "merchant_parknshop", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$4,000" },
+      { "merchantId": "merchant_759", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$4,000" }
+    ],
+    "color": "#375E97",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2022/03/SCB_SmartCard_Retouched_cardface-copy-300x194.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_citi_cashback",
+    "name": "Citi Cash Back",
+    "issuer": "Citibank",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 1,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 2, "note": "本地食肆及酒店，無上限" }
+    ],
+    "merchantOverrides": [],
+    "color": "#E87722",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/10/45994594-6727-4d2b-9d7e-ccfdaaf926ab-300x191.jpeg",
+    "sourceUrl": "https://hkcashrebate.com/dining"
+  },
+  {
+    "id": "card_dbs_compass",
+    "name": "DBS Compass Visa",
+    "issuer": "DBS",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 8, "note": "逢星期三，單一簽賬滿 HK$300" }
+    ],
+    "merchantOverrides": [],
+    "color": "#111827",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/07/dbsCompassVisa-300x189.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_dbs_eminent",
+    "name": "DBS Eminent",
+    "issuer": "DBS",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 5, "note": "單一簽賬滿 HK$300" }
+    ],
+    "merchantOverrides": [],
+    "color": "#1F2A44",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2021/09/Eminent_new-cardface-visa_signature-300x189.png",
+    "sourceUrl": "https://hkcashrebate.com/dining"
+  },
+  {
+    "id": "card_ccb_eye",
+    "name": "建行亞洲 eye",
+    "issuer": "CCB Asia",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 9.4, "note": "加碼賞：每月登記，累積滿 HK$5,000 及每單滿 HK$500" }
+    ],
+    "merchantOverrides": [],
+    "color": "#0A7BB5",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2023/01/eye_Visa_Signature_final-1.webp",
+    "sourceUrl": "https://hkcashrebate.com/dining"
+  },
+  {
+    "id": "card_aeon_wakuwaku",
+    "name": "AEON WAKUWAKU",
+    "issuer": "AEON",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 6, "note": "網上簽賬（含網上超市）" },
+      { "category": "drive", "type": "cashback", "rate": 6, "note": "易通行／咪錶經網上支付" }
+    ],
+    "merchantOverrides": [],
+    "color": "#8E44AD",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2024/10/cashback-wakuwaku-0322-rgb-4-189x300.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_aeon_purple",
+    "name": "AEON Purple",
+    "issuer": "AEON",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 6, "note": "Apple/Google Pay 本地食肆" },
+      { "category": "supermarket", "type": "cashback", "rate": 6, "note": "Apple/Google Pay AEON Stores" }
+    ],
+    "merchantOverrides": [],
+    "color": "#6C3483",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2022/04/purplepremium_0325_application_card1-e1741611976794-192x300.png",
+    "sourceUrl": "https://hkcashrebate.com/dining"
+  },
+  {
+    "id": "card_hsb_mmpower",
+    "name": "恒生 MMPOWER",
+    "issuer": "Hang Seng",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 5, "note": "每月累積簽賬滿 HK$3,000" },
+      { "category": "overseas", "type": "cashback", "rate": 4, "note": "每月累積簽賬滿 HK$3,000" },
+      { "category": "drive", "type": "cashback", "rate": 5, "note": "牌費經網上支付" }
+    ],
+    "merchantOverrides": [],
+    "color": "#00A3A1",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2023/06/M_power_card_Mint_980x1552px-300x196.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_hsb_travelplus",
+    "name": "恒生 Travel+ Visa Signature",
+    "issuer": "Hang Seng",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "overseas", "type": "cashback", "rate": 5, "note": "其他外幣（日韓泰中澳台高達 7%）" },
+      { "category": "dining", "type": "cashback", "rate": 5, "note": "本地餐飲（需登記）" }
+    ],
+    "merchantOverrides": [],
+    "color": "#8B0000",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2024/04/travelplus.png-189x300.webp",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_boc_chill_world",
+    "name": "中銀 Chill World",
+    "issuer": "Bank of China",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 5 },
+      { "category": "overseas", "type": "cashback", "rate": 5 }
+    ],
+    "merchantOverrides": [],
+    "color": "#B71C1C",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2022/06/cardface.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_boc_cheers_vi",
+    "name": "中銀 Cheers Visa Infinite",
+    "issuer": "Bank of China",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 4, "note": "10X 積分 = 4% 回贈或 HK$1.5/里" },
+      { "category": "overseas", "type": "cashback", "rate": 4, "note": "10X 積分 = 4% 回贈或 HK$1.5/里" }
+    ],
+    "merchantOverrides": [],
+    "color": "#4A148C",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2023/10/VI-188x300.png",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_boc_sogo",
+    "name": "中銀 SOGO Visa Signature",
+    "issuer": "Bank of China",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 5.4, "note": "Apple/Google/Samsung Pay" },
+      { "category": "drive", "type": "cashback", "rate": 5.4, "note": "油站 Apple/Google Pay" }
+    ],
+    "merchantOverrides": [],
+    "color": "#C2185B",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/07/SOGO-VS-300x191.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_boc_go",
+    "name": "中銀 Go",
+    "issuer": "Bank of China",
+    "network": "unionpay",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [],
+    "merchantOverrides": [
+      { "merchantId": "merchant_wellcome", "type": "cashback", "rate": 5, "note": "指定 Go 商戶：惠康／Market Place" }
+    ],
+    "color": "#9C27B0",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/04/boc_go_diamond_9cb7a40936-189x300.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_boc_bliss",
+    "name": "中銀 Bliss",
+    "issuer": "Bank of China",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 4, "note": "每月首 HK$10,000 網購" }
+    ],
+    "merchantOverrides": [],
+    "color": "#D81B60",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2026/03/bliss-189x300.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_bea_goal",
+    "name": "東亞 BEA GOAL",
+    "issuer": "Bank of East Asia",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 4.4, "note": "Apple/Google Pay 及網上簽賬" },
+      { "category": "drive", "type": "cashback", "rate": 6.4, "note": "本地油站，每月累積簽賬滿 HK$2,000" },
+      { "category": "utility-bill", "type": "cashback", "rate": 4.4, "note": "經 AlipayHK 繳費" }
+    ],
+    "merchantOverrides": [],
+    "color": "#0B6E4F",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2024/05/bea_mastercard_goal-300x187.png",
+    "sourceUrl": "https://hkcashrebate.com/drive"
+  },
+  {
+    "id": "card_bea_world",
+    "name": "東亞 World Mastercard",
+    "issuer": "Bank of East Asia",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "dining", "type": "cashback", "rate": 5, "note": "12.5X 積分，需登記" },
+      { "category": "overseas", "type": "cashback", "rate": 5, "note": "12.5X 積分，歐洲除外" }
+    ],
+    "merchantOverrides": [],
+    "color": "#003DA5",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2026/01/bea-world-mc-300x189.jpeg",
+    "sourceUrl": "https://hkcashrebate.com/dining"
+  },
+  {
+    "id": "card_bea_ititanium",
+    "name": "東亞 i-Titanium",
+    "issuer": "Bank of East Asia",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 4, "note": "Apple/Google Pay 及網上簽賬" },
+      { "category": "utility-bill", "type": "cashback", "rate": 4, "note": "經 AlipayHK 繳費" }
+    ],
+    "merchantOverrides": [],
+    "color": "#5C6BC0",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/07/beaiTaniumWhite-300x189.png",
+    "sourceUrl": "https://hkcashrebate.com/utility-bill"
+  },
+  {
+    "id": "card_bea_jcb",
+    "name": "東亞 JCB 白金卡",
+    "issuer": "Bank of East Asia",
+    "network": "jcb",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 15, "note": "拍卡（contactless），每月累積零售簽賬滿 HK$500" }
+    ],
+    "merchantOverrides": [],
+    "color": "#2E7D32",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2026/03/bea-jcb-platinum-2-e1775049300215-300x188.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_cncbi_motion",
+    "name": "信銀國際 Motion",
+    "issuer": "CITIC Bank",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 6, "note": "當月累積簽賬滿 HK$3,800" },
+      { "category": "dining", "type": "cashback", "rate": 6, "note": "當月累積簽賬滿 HK$3,800" }
+    ],
+    "merchantOverrides": [],
+    "color": "#F4511E",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2023/07/New_Motion_card-front.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_fubon_in",
+    "name": "富邦 iN ShopBack Visa",
+    "issuer": "Fubon Bank",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 8, "note": "20X 積分，每月下限簽 HK$1,000" }
+    ],
+    "merchantOverrides": [],
+    "color": "#1565C0",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2026/08/shopback_in-190x300.png",
+    "sourceUrl": "https://hkcashrebate.com/online"
+  },
+  {
+    "id": "card_fubon_plat",
+    "name": "富邦 Visa 白金",
+    "issuer": "Fubon Bank",
+    "network": "visa",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "overseas", "type": "cashback", "rate": 8, "note": "新台幣 20X；日韓 10X = 4%" }
+    ],
+    "merchantOverrides": [],
+    "color": "#1976D2",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2024/07/Product_Fubon-e1720961477137-300x190.jpg",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_sim_world",
+    "name": "sim World Mastercard",
+    "issuer": "sim Credit",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "online", "type": "cashback", "rate": 8, "note": "每單滿 HK$500，實體店再累積滿 HK$1,000" },
+      { "category": "overseas", "type": "cashback", "rate": 8, "note": "海外實體簽賬，每月累積滿 HK$1,000" }
+    ],
+    "merchantOverrides": [],
+    "color": "#512DA8",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/03/sim-world-189x300.png",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_mox",
+    "name": "Mox Credit",
+    "issuer": "Mox",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 3, "note": "全港超市及雜貨店，無上限" }
+    ],
+    "merchantOverrides": [],
+    "color": "#00A0E9",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2023/04/MOX_card_face_1-300x189.png",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_ccba_travo",
+    "name": "建行 TRAVO",
+    "issuer": "CCB Asia",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "overseas", "type": "cashback", "rate": 4, "note": "10X 積分" }
+    ],
+    "merchantOverrides": [],
+    "color": "#004D40",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/06/travo-card-img-189x300.png",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_pc_wewa",
+    "name": "安信 WeWa Visa Signature",
+    "issuer": "Public Bank",
+    "network": "unionpay",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "overseas", "type": "cashback", "rate": 10, "note": "限時海外簽賬，兼免外幣手續費" }
+    ],
+    "merchantOverrides": [],
+    "color": "#E53935",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2025/06/wewa-vs-300x195.png",
+    "sourceUrl": "https://hkcashrebate.com/overseas"
+  },
+  {
+    "id": "card_icbc",
+    "name": "ICBC 信用卡",
+    "issuer": "ICBC Asia",
+    "network": "unionpay",
+    "baseType": "cashback",
+    "baseRate": 0.4,
+    "categoryRates": [
+      { "category": "supermarket", "type": "cashback", "rate": 9, "note": "指定超市，單一簽賬滿 HK$200（限名額）" }
+    ],
+    "merchantOverrides": [],
+    "color": "#C62828",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/08/icbc-Constellations-768x485-copy-300x189.jpg",
+    "sourceUrl": "https://hkcashrebate.com/supermarket"
+  }
+]
