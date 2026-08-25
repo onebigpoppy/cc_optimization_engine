@@ -45,7 +45,8 @@ export const CardSchema = z.object({
   color: z.string().regex(/^#[0-9a-fA-F]{6}$/).optional(),
   imageUrl: z.string().url().optional(),
   sourceUrl: z.string().url().optional(),
-  note: z.string().max(200).optional()
+  note: z.string().max(200).optional(),
+  noteUrl: z.string().url().optional()
 })
 
 export type MerchantOverride = z.infer<typeof MerchantOverrideSchema>

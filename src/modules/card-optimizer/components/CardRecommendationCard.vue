@@ -93,7 +93,16 @@ const networkLabel = computed(() => {
             {{ recommendation.card.issuer }} · {{ networkLabel }}
           </p>
           <p v-if="recommendation.card.note" class="mt-1 text-xs text-ink-subtle">
-            {{ recommendation.card.note }}
+            <a
+              v-if="recommendation.card.noteUrl"
+              :href="recommendation.card.noteUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-accent hover:underline"
+            >
+              {{ recommendation.card.note }}
+            </a>
+            <template v-else>{{ recommendation.card.note }}</template>
           </p>
         </div>
       </div>
