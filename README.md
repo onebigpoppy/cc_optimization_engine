@@ -50,6 +50,9 @@ Card & merchant data live in committed JSON snapshots under
 - `merchants.json` — concrete merchants (百佳/惠康/Amazon/美心皇宮…) + 6 virtual
   "category" merchants (`cat_*`) that power the category chips.
 
+> 滙豐 EveryMile「指定商戶」2.5% 商戶名單以 HSBC 官方 PDF 為準：
+> https://www.hsbc.com.hk/content/dam/hsbc/hk/tc/docs/credit-cards/everymile/everymile-everyday-spend.pdf
+
 The browser **cannot** fetch hkcashrebate.com directly (CORS), so the app ships
 a bundled snapshot and, at runtime, tries to refresh from the same-origin
 `/data/*.json` (Zod-validated, with the bundled snapshot as fallback).

@@ -451,5 +451,19 @@
     "color": "#C62828",
     "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2020/08/icbc-Constellations-768x485-copy-300x189.jpg",
     "sourceUrl": "https://hkcashrebate.com/supermarket"
+  },
+  {
+    "id": "card_hsbc_everymile",
+    "name": "滙豐 EveryMile",
+    "issuer": "HSBC",
+    "network": "mastercard",
+    "baseType": "cashback",
+    "baseRate": 1,
+    "categoryRates": [],
+    "merchantOverrides": [],
+    "color": "#DB0011",
+    "imageUrl": "https://hkcashrebate.com/wp-content/uploads/2021/10/hsbc-everymile-card-300x194.png",
+    "sourceUrl": "https://hkcashrebate.com/hsbc-everymile",
+    "note": "指定商戶簽賬 2.5%（$2=1里）；其他本地及海外 1%（$5=1里）"
   }
 ]

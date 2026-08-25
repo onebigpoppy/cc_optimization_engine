@@ -92,6 +92,9 @@ const networkLabel = computed(() => {
           <p class="mt-0.5 text-xs text-ink-muted">
             {{ recommendation.card.issuer }} · {{ networkLabel }}
           </p>
+          <p v-if="recommendation.card.note" class="mt-1 text-xs text-ink-subtle">
+            {{ recommendation.card.note }}
+          </p>
         </div>
       </div>
 
