@@ -228,6 +228,11 @@
         "category": "dining",
         "type": "cashback",
         "rate": 6
+      },
+      {
+        "category": "overseas",
+        "type": "cashback",
+        "rate": 6
       }
     ],
     "merchantOverrides": [],
@@ -262,6 +267,11 @@
       },
       {
         "category": "drive",
+        "type": "cashback",
+        "rate": 6
+      },
+      {
+        "category": "overseas",
         "type": "cashback",
         "rate": 6
       }
