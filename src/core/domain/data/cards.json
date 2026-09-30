@@ -735,7 +735,7 @@
       {
         "category": "supermarket",
         "type": "cashback",
-        "rate": 9,
+        "rate": 15,
         "note": "指定超市，單一簽賬滿 HK$200（限名額）；每月上限 HK$2,112"
       }
     ],
